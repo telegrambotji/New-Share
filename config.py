@@ -3,8 +3,8 @@ from os import environ
 
 class Config:
     
-    API_ID = environ.get("API_ID", "")
-    API_HASH = environ.get("API_HASH", "")
+    API_ID = environ.get("API_ID", "27194475")
+    API_HASH = environ.get("API_HASH", "b9eaaeead349eb9c593bfe9ae04ded7d")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '1982405151').split()]
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
